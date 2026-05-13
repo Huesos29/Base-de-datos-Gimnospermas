@@ -1,0 +1,3220 @@
+{
+  "coniferas": [
+    {
+      "nombre": "Abies alba",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies amabilis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies balsamea",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies beshanzuensis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies borisii-regis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies bracteata",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies cephalonica",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies chensiensis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies cilicica",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies concolor",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies delavayi",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies durangensis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies fabri",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies fanjingshanensis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies fargesii",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies firma",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies forrestii",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies fraseri",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies georgei",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies grandis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies guatemalensis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies holophylla",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies homolepis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies kawakamii",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies koreana",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies lasiocarpa",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies magnifica",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies mariesii",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies nephrolepis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies nordmanniana",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies numidica",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies pindrow",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies pinsapo",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies procera",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies religiosa",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies sachalinensis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies sibirica",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies spectabilis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies vejarii",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies yuanbaoshanensis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Abies ziyuanensis",
+      "genero": "Abies",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Acmopyle pancheri",
+      "genero": "Acmopyle",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Acmopyle sahniana",
+      "genero": "Acmopyle",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Actinostrobus acuminatus",
+      "genero": "Actinostrobus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Actinostrobus arenarius",
+      "genero": "Actinostrobus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Actinostrobus pyramidalis",
+      "genero": "Actinostrobus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Afrocarpus dawei",
+      "genero": "Afrocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Afrocarpus falcatus",
+      "genero": "Afrocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Afrocarpus gracilior",
+      "genero": "Afrocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Afrocarpus mannii",
+      "genero": "Afrocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Afrocarpus usambarensis",
+      "genero": "Afrocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Agathis atropurpurea",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis australis",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis borneensis",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis dammara",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis endertii",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis flavescens",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis kinabaluensis",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis labillardieri",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis lenticula",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis macrophylla",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis microstachya",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis montana",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis moorei",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis orbicula",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis ovata",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis philippinensis",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis robusta",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis silbae",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Agathis spathulata",
+      "genero": "Agathis",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Amentotaxus argotaenia",
+      "genero": "Amentotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Amentotaxus formosana",
+      "genero": "Amentotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Amentotaxus poilanei",
+      "genero": "Amentotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Amentotaxus yunnanensis",
+      "genero": "Amentotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Araucaria angustifolia",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria araucana",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria bernieri",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria bidwillii",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria columnaris",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria cunninghamii",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria heterophylla",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria hunsteinii",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria luxurians",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria montana",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria muelleri",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria nemorosa",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria rulei",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria scopulorum",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Araucaria subulata",
+      "genero": "Araucaria",
+      "familia": "Araucariaceae"
+    },
+    {
+      "nombre": "Athrotaxis cupressoides",
+      "genero": "Athrotaxis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Athrotaxis laxifolia",
+      "genero": "Athrotaxis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Athrotaxis selaginoides",
+      "genero": "Athrotaxis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Austrocedrus chilensis",
+      "genero": "Austrocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Austrotaxus spicata",
+      "genero": "Austrotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Callitris columellaris",
+      "genero": "Callitris",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Callitris endlicheri",
+      "genero": "Callitris",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Callitris glaucophylla",
+      "genero": "Callitris",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Callitris intratropica",
+      "genero": "Callitris",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Callitris macleayana",
+      "genero": "Callitris",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Callitris oblonga",
+      "genero": "Callitris",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Callitris preissii",
+      "genero": "Callitris",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Callitris rhomboidea",
+      "genero": "Callitris",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Calocedrus decurrens",
+      "genero": "Calocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Calocedrus formosana",
+      "genero": "Calocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Calocedrus macrolepis",
+      "genero": "Calocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Calocedrus rupestris",
+      "genero": "Calocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cathaya argyrophylla",
+      "genero": "Cathaya",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Cedrus atlantica",
+      "genero": "Cedrus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Cedrus brevifolia",
+      "genero": "Cedrus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Cedrus deodara",
+      "genero": "Cedrus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Cedrus libani",
+      "genero": "Cedrus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Cephalotaxus fortunei",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus fortunei",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus griffithii",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus griffithii",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus hainanensis",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus hainanensis",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus harringtonia",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus harringtonia",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus koreana",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus koreana",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus latifolia",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus latifolia",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus mannii",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus mannii",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus oliveri",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus oliveri",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus sinensis",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus sinensis",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus wilsoniana",
+      "genero": "Cephalotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Cephalotaxus wilsoniana",
+      "genero": "Cephalotaxus",
+      "familia": "Cephalotaxaceae"
+    },
+    {
+      "nombre": "Chamaecyparis formosensis",
+      "genero": "Chamaecyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Chamaecyparis lawsoniana",
+      "genero": "Chamaecyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Chamaecyparis obtusa",
+      "genero": "Chamaecyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Chamaecyparis pisifera",
+      "genero": "Chamaecyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Chamaecyparis thyoides",
+      "genero": "Chamaecyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cryptomeria japonica",
+      "genero": "Cryptomeria",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cunninghamia konishii",
+      "genero": "Cunninghamia",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cunninghamia lanceolata",
+      "genero": "Cunninghamia",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus abramsiana",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus arizonica",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus bakeri",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus cashmeriana",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus dupreziana",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus funebris",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus goveniana",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus lusitanica",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus macrocarpa",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus sargentii",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus sempervirens",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Cupressus torulosa",
+      "genero": "Cupressus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Dacrycarpus compactus",
+      "genero": "Dacrycarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrycarpus dacrydioides",
+      "genero": "Dacrycarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrycarpus imbricatus",
+      "genero": "Dacrycarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrycarpus kinabaluensis",
+      "genero": "Dacrycarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrycarpus steupii",
+      "genero": "Dacrycarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium beccarii",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium cupressinum",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium elatum",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium gibbsiae",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium guillauminii",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium nausoriense",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium novo-guineense",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium pectinatum",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Dacrydium spathoides",
+      "genero": "Dacrydium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Diselma archeri",
+      "genero": "Diselma",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Falcatifolium falciforme",
+      "genero": "Falcatifolium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Falcatifolium gruezoi",
+      "genero": "Falcatifolium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Falcatifolium papuanum",
+      "genero": "Falcatifolium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Falcatifolium sleumeri",
+      "genero": "Falcatifolium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Falcatifolium taxoides",
+      "genero": "Falcatifolium",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Fitzroya cupressoides",
+      "genero": "Fitzroya",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Fokienia hodginsii",
+      "genero": "Fokienia",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Glyptostrobus pensilis",
+      "genero": "Glyptostrobus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Halocarpus biformis",
+      "genero": "Halocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Halocarpus kirkii",
+      "genero": "Halocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Hesperocyparis forbesii",
+      "genero": "Hesperocyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Hesperocyparis glabra",
+      "genero": "Hesperocyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Hesperocyparis macrocarpa",
+      "genero": "Hesperocyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Hesperocyparis nevadensis",
+      "genero": "Hesperocyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Hesperocyparis stephensonii",
+      "genero": "Hesperocyparis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus ashei",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus bermudiana",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus californica",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus cedrus",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus chinensis",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus communis",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus deppeana",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus drupacea",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus excelsa",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus flaccida",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus horizontalis",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus indica",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus monosperma",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus occidentalis",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus osteosperma",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus phoenicea",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus pinchotii",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus procera",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus recurva",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus scopulorum",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus squamata",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus thurifera",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Juniperus virginiana",
+      "genero": "Juniperus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Keteleeria davidiana",
+      "genero": "Keteleeria",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Keteleeria evelyniana",
+      "genero": "Keteleeria",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Keteleeria fortunei",
+      "genero": "Keteleeria",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Keteleeria pubescens",
+      "genero": "Keteleeria",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Lagarostrobos franklinii",
+      "genero": "Lagarostrobos",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Larix decidua",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix gmelinii",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix griffithii",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix kaempferi",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix laricina",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix lyallii",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix mastersiana",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix occidentalis",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix olgensis",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix potaninii",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Larix sibirica",
+      "genero": "Larix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Lepidothamnus fonkii",
+      "genero": "Lepidothamnus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Lepidothamnus intermedius",
+      "genero": "Lepidothamnus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Libocedrus austrocaledonica",
+      "genero": "Libocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Libocedrus bidwillii",
+      "genero": "Libocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Libocedrus chevalieri",
+      "genero": "Libocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Libocedrus plumosa",
+      "genero": "Libocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Libocedrus yateensis",
+      "genero": "Libocedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Libocedrus yateensis",
+      "genero": "Taxodium",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Manoao colensoi",
+      "genero": "Manoao",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Metasequoia glyptostroboides",
+      "genero": "Metasequoia",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Metasequoia glyptostroboides",
+      "genero": "Metasequoia",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Microbiota decussata",
+      "genero": "Microbiota",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Microbiota decussata",
+      "genero": "Microbiota",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Microcachrys tetragona",
+      "genero": "Microcachrys",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Nageia fleuryi",
+      "genero": "Nageia",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Nageia nagi",
+      "genero": "Nageia",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Nageia wallichiana",
+      "genero": "Nageia",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Neocallitropsis pancheri",
+      "genero": "Neocallitropsis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Neocallitropsis pancheri",
+      "genero": "Neocallitropsis",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Nothotsuga longibracteata",
+      "genero": "Nothotsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Papuacedrus papuana",
+      "genero": "Papuacedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Papuacedrus papuana",
+      "genero": "Papuacedrus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Parasitaxus ustus",
+      "genero": "Parasitaxus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Pherosphaera fitzgeraldii",
+      "genero": "Pherosphaera",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Pherosphaera hookeriana",
+      "genero": "Pherosphaera",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Phyllocladus alpinus",
+      "genero": "Phyllocladus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Phyllocladus aspleniifolius",
+      "genero": "Phyllocladus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Phyllocladus hypophyllus",
+      "genero": "Phyllocladus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Phyllocladus toatoa",
+      "genero": "Phyllocladus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Phyllocladus trichomanoides",
+      "genero": "Phyllocladus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Picea abies",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea asperata",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea brachytyla",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea breweriana",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea chihuahuana",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea crassifolia",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea engelmannii",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea glauca",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea jezoensis",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea likiangensis",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea mariana",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea mexicana",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea morrisonicola",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea obovata",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea omorika",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea orientalis",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea pungens",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea rubens",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea schrenkiana",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea sitchensis",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea smithiana",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea spinulosa",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea torano",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Picea wilsonii",
+      "genero": "Picea",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pilgerodendron uviferum",
+      "genero": "Pilgerodendron",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Pilgerodendron uviferum",
+      "genero": "Pilgerodendron",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Pinus albicaulis",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus arizonica",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus attenuata",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus ayacahuite",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus banksiana",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus brutia",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus canariensis",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus caribaea",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus cembroides",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus clausa",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus cooperi",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus coulteri",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus densiflora",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus devoniana",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus durangensis",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus echinata",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus elliottii",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus engelmannii",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus flexilis",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus greggii",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus halepensis",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus hartwegii",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus herrerae",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus jeffreyi",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus kesiya",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus lambertiana",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus leiophylla",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus maximartinezii",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus montezumae",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus muricata",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus nelsonii",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus nigra",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus oocarpa",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus palustris",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus patula",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus peuce",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus pinaster",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus pinea",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus ponderosa",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus pseudostrobus",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus radiata",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus remota",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus resinosa",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus rigida",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus sabiniana",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus serotina",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus strobus",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus sylvestris",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus taeda",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus teocote",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus tropicalis",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus uncinata",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus virginiana",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pinus wallichiana",
+      "genero": "Pinus",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Platycladus orientalis",
+      "genero": "Platycladus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Platycladus orientalis",
+      "genero": "Platycladus",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Podocarpus acutifolius",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus archboldii",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus brasiliensis",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus costalis",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus elatus",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus falcatus",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus guatemalensis",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus lambertii",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus latifolius",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus lawrencei",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus macrophyllus",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus neriifolius",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus nubigenus",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus oleifolius",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus parlatorei",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus salignus",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus sellowii",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Podocarpus totara",
+      "genero": "Podocarpus",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Prumnopitys andina",
+      "genero": "Prumnopitys",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Prumnopitys ferruginea",
+      "genero": "Prumnopitys",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Prumnopitys harmsiana",
+      "genero": "Prumnopitys",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Prumnopitys ladei",
+      "genero": "Prumnopitys",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Prumnopitys montana",
+      "genero": "Prumnopitys",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Prumnopitys standleyi",
+      "genero": "Prumnopitys",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Prumnopitys taxifolia",
+      "genero": "Prumnopitys",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Pseudolarix amabilis",
+      "genero": "Pseudolarix",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pseudotaxus chienii",
+      "genero": "Pseudotaxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Pseudotsuga brevifolia",
+      "genero": "Pseudotsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pseudotsuga forrestii",
+      "genero": "Pseudotsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pseudotsuga japonica",
+      "genero": "Pseudotsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pseudotsuga macrocarpa",
+      "genero": "Pseudotsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pseudotsuga menziesii",
+      "genero": "Pseudotsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pseudotsuga sinensis",
+      "genero": "Pseudotsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Pseudotsuga wilsoniana",
+      "genero": "Pseudotsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Retrophyllum comptonii",
+      "genero": "Retrophyllum",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Retrophyllum minus",
+      "genero": "Retrophyllum",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Retrophyllum piresii",
+      "genero": "Retrophyllum",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Retrophyllum rospigliosii",
+      "genero": "Retrophyllum",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Retrophyllum vitiense",
+      "genero": "Retrophyllum",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Saxegothaea conspicua",
+      "genero": "Saxegothaea",
+      "familia": "Podocarpaceae"
+    },
+    {
+      "nombre": "Sciadopitys verticillata",
+      "genero": "Sciadopitys",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Sciadopitys verticillata",
+      "genero": "Sciadopitys",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Sciadopitys verticillata",
+      "genero": "Sciadopitys",
+      "familia": "Sciadopityaceae"
+    },
+    {
+      "nombre": "Sequoia sempervirens",
+      "genero": "Sequoia",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Sequoia sempervirens",
+      "genero": "Sequoia",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Sequoiadendron giganteum",
+      "genero": "Sequoiadendron",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Sequoiadendron giganteum",
+      "genero": "Sequoiadendron",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Taiwania cryptomerioides",
+      "genero": "Taiwania",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Taiwania cryptomerioides",
+      "genero": "Taiwania",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Taxodium ascendens",
+      "genero": "Taxodium",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Taxodium ascendens",
+      "genero": "Taxodium",
+      "familia": "Cupressaceae"
+    },
+    {
+      "nombre": "Taxus baccata",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus brevifolia",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus canadensis",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus chinensis",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus cuspidata",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus floridana",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus fuana",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus globosa",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus sumatrana",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Taxus wallichiana",
+      "genero": "Taxus",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Torreya californica",
+      "genero": "Torreya",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Torreya grandis",
+      "genero": "Torreya",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Torreya jackii",
+      "genero": "Torreya",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Torreya nucifera",
+      "genero": "Torreya",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Torreya taxifolia",
+      "genero": "Torreya",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Torreya yunnanensis",
+      "genero": "Torreya",
+      "familia": "Taxaceae"
+    },
+    {
+      "nombre": "Tsuga canadensis",
+      "genero": "Tsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Tsuga caroliniana",
+      "genero": "Tsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Tsuga chinensis",
+      "genero": "Tsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Tsuga diversifolia",
+      "genero": "Tsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Tsuga dumosa",
+      "genero": "Tsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Tsuga heterophylla",
+      "genero": "Tsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Tsuga mertensiana",
+      "genero": "Tsuga",
+      "familia": "Pinaceae"
+    },
+    {
+      "nombre": "Tsuga sieboldii",
+      "genero": "Tsuga",
+      "familia": "Pinaceae"
+    }
+  ],
+  "ginkgo": [
+    {
+      "nombre": "Ginkgo biloba",
+      "genero": "Ginkgo",
+      "familia": "Ginkgoaceae"
+    }
+  ],
+  "cicadas": [
+    {
+      "nombre": "Bowenia serrulata",
+      "genero": "Bowenia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Bowenia spectabilis",
+      "genero": "Bowenia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia alvarezii",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia brevifrons",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia chamberlainii",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia decumbens",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia euryphyllidia",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia hildae",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia kuesteriana",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia latifolia",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia mexicana",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia miqueliana",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia morettii",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia norstogii",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia robusta",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia sabatoi",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia tenuis",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia totonacorum",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Ceratozamia zaragozae",
+      "genero": "Ceratozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Chigua bernalii",
+      "genero": "Chigua",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Chigua restrepoi",
+      "genero": "Chigua",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Cycas angulata",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas apoa",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas armstrongii",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas badensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas balansae",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas basipinna",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas beddomei",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas bougainvilleana",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas brunnea",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas cairnsiana",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas calcicola",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas campestris",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas canalis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas candida",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas changjiangensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas chevalieri",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas circinalis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas clivicola",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas couttsiana",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas cupida",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas curranii",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas debaoensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas desolata",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas diannanensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas dolichophylla",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas edentata",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas elongata",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas falcata",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas ferruginea",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas furfuracea",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas glauca",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas guizhouensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas hainanensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas hoabinhensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas hongheensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas inermis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas javana",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas lacrimans",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas lane-poolei",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas lindstromii",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas macrocarpa",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas media",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas micholitzii",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas micronesica",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas montana",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas multipinnata",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas nongnoochiae",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas ophiolitica",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas pachypoda",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas panzhihuaensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas papuana",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas pectinata",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas petraea",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas platyphylla",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas pruinosa",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas revoluta",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas rumphii",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas sancti-lasallei",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas seemannii",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas segmentifida",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas semota",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas sexseminifera",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas siamensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas silvestris",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas simplicipinna",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas sphaerica",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas taiwaniana",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas tanqingii",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas thouarsii",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas tuckeri",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas vespertilio",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas wadei",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas xilingensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas yorkiana",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas zambalensis",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Cycas zeylanica",
+      "genero": "Cycas",
+      "familia": "Cycadaceae"
+    },
+    {
+      "nombre": "Dioon angustifolium",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon califanoi",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon caputoi",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon edule",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon holmgrenii",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon mejiae",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon merolae",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon purpusii",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon rzedowskii",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon sonorense",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon spinulosum",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Dioon tomasellii",
+      "genero": "Dioon",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos afer",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos altensteinii",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos arenarius",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos bubalinus",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos caffer",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos cycadifolius",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos ferox",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos friderici-guilielmi",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos gratus",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos horridus",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos lebomboensis",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos lehmannii",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos longifolius",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos natalensis",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos princeps",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos transvenosus",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos villosus",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Encephalartos woodii",
+      "genero": "Encephalartos",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Lepidozamia hopei",
+      "genero": "Lepidozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Lepidozamia peroffskyana",
+      "genero": "Lepidozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia communis",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia concinna",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia diplomera",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia dyeri",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia fawcettii",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia fraseri",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia lucida",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia macdonnellii",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia moorei",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia mountperriensis",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia pauli-guilielmi",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia platyrachis",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia riedlei",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia riedlei",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia serpentina",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia serpentina",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia spiralis",
+      "genero": "Macrozamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Macrozamia spiralis",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Microcycas calocoma",
+      "genero": "Microcycas",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Microcycas calocoma",
+      "genero": "Microcycas",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Stangeria eriopus",
+      "genero": "Stangeria",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Stangeria eriopus",
+      "genero": "Stangeria",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia angustifolia",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia boliviana",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia encephalartoides",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia fairchildiana",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia furfuracea",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia integrifolia",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia loddigesii",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia muricata",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia paucijuga",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia prasina",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia pseudoparasitica",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia pumila",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia roezlii",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia skinneri",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia splendens",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia standleyi",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    },
+    {
+      "nombre": "Zamia vazquezii",
+      "genero": "Zamia",
+      "familia": "Zamiaceae"
+    }
+  ],
+  "gnetales": [
+    {
+      "nombre": "Ephedra alata",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra altissima",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra americana",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra antisyphilitica",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra aphylla",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra aspera",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra aurantiaca",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra boelckei",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra breana",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra californica",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra campylopoda",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra chilensis",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra ciliata",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra coryi",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra cutleri",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra dahurica",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra distachya",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra equisetina",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra fasciculata",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra fedtschenkoi",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra foliata",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra fragilis",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra funerea",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra gerardiana",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra intermedia",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra laristanica",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra major",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra minuta",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra monosperma",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra nevadensis",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra pachyclada",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra pedunculata",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra procera",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra regeliana",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra rhytidosperma",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra sinica",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra strobilacea",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra trifurca",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra tweediana",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Ephedra viridis",
+      "genero": "Ephedra",
+      "familia": "Ephedraceae"
+    },
+    {
+      "nombre": "Gnetum africanum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum arboreum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum buchholzianum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum camporum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum cuspidatum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum diminutum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum gnemon",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum hainanense",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum klossii",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum latifolium",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum leyboldii",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum luofuense",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum macrostachyum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum microcarpum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum montanum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum neglectum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum nodiflorum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum paniculatum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum parvifolium",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum pendulum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum raya",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum schwackeanum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum tenuifolium",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum ula",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Gnetum venosum",
+      "genero": "Gnetum",
+      "familia": "Gnetaceae"
+    },
+    {
+      "nombre": "Welwitschia mirabilis",
+      "genero": "Welwitschia",
+      "familia": "Welwitschiaceae"
+    }
+  ]
+}

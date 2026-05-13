@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Araucaria araucana",
+    "genero": "Araucaria",
+    "familia": "Araucariaceae",
+    "grupo": "Conífera"
+  },
+  {
+    "nombre": "Cycas revoluta",
+    "genero": "Cycas",
+    "familia": "Cycadaceae",
+    "grupo": "Cícada"
+  },
+  {
+    "nombre": "Ephedra sinica",
+    "genero": "Ephedra",
+    "familia": "Ephedraceae",
+    "grupo": "Gnetófita"
+  },
+  {
+    "nombre": "Ginkgo biloba",
+    "genero": "Ginkgo",
+    "familia": "Ginkgoaceae",
+    "grupo": "Ginkgo"
+  },
+  {
+    "nombre": "Pinus ponderosa",
+    "genero": "Pinus",
+    "familia": "Pinaceae",
+    "grupo": "Conífera"
+  },
+  {
+    "nombre": "Sequoia sempervirens",
+    "genero": "Sequoia",
+    "familia": "Cupressaceae",
+    "grupo": "Conífera"
+  }
+]
