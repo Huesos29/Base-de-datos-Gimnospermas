@@ -225,3 +225,12 @@ footer {
 .familias-grid {
     align-items: start;
 }
+
+
+.familia-seccion {
+    margin-bottom: 30px;
+}
+
+.familia-seccion h2 {
+    margin-bottom: 10px;
+}
