@@ -399,3 +399,36 @@ body:has(#lista-cicadas) .grupo {
         width: 100%;
     }
 }
+
+
+/* ========================= */
+/* 📚 REFERENCIAS */
+/* ========================= */
+
+.referencias {
+    background-color: #fffaf0;
+    padding: 20px;
+    margin: 30px 20px 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.referencias h2 {
+    margin-bottom: 10px;
+    color: var(--verde-oscuro);
+}
+
+/* ========================= */
+/* 📌 FOOTER FINAL (AUTORES) */
+/* ========================= */
+
+.footer-info {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
