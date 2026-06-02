@@ -6,14 +6,11 @@ function cargarCicadas() {
             const contenedor = document.getElementById('lista-cicadas');
             const lista = data.cicadas;
 
-            console.log(lista);
-
             if (!lista || lista.length === 0) {
                 contenedor.innerHTML = "<p>⚠️ No hay datos en cícadas</p>";
                 return;
             }
 
-            // 🔥 Agrupar por familia
             const familias = {};
 
             lista.forEach(especie => {
@@ -23,8 +20,7 @@ function cargarCicadas() {
                 familias[especie.familia].push(especie);
             });
 
-            // 🔥 Mostrar por familias
-            for (let familia in familias) {
+            Object.keys(familias).sort().forEach(familia => {
 
                 const seccion = document.createElement('div');
                 seccion.classList.add('familia-seccion');
@@ -32,22 +28,20 @@ function cargarCicadas() {
                 const titulo = document.createElement('h2');
                 titulo.textContent = `Familia: ${familia}`;
 
+                // 🔥 IMPORTANTE (aislado del diseño principal)
                 const grupo = document.createElement('div');
-                grupo.classList.add('cards');
+                grupo.classList.add('especies-grid');
 
                 familias[familia].forEach(especie => {
 
-                    let icono = "";
-                    if (especie.distribucion === "México") {
-                        icono = " 🇲🇽";
-                    }
+                    let icono = especie.distribucion === "México" ? " 🇲🇽" : "";
 
                     const card = document.createElement('div');
-                    card.classList.add('card');
+                    card.classList.add('especie');
 
                     card.innerHTML = `
                         <h3><em>${especie.nombre}</em>${icono}</h3>
-                        <p><strong>Familia:</strong> ${especie.familia}</p>
+                        <p><strong>Género:</strong> ${especie.genero}</p>
                     `;
 
                     grupo.appendChild(card);
@@ -55,12 +49,36 @@ function cargarCicadas() {
 
                 seccion.appendChild(titulo);
                 seccion.appendChild(grupo);
-
                 contenedor.appendChild(seccion);
-            }
+            });
 
         })
         .catch(err => console.error(err));
 }
 
 cargarCicadas();
+
+
+// 🔝 BOTÓN
+const btn = document.getElementById("btn-top");
+
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+    let currentScroll = window.scrollY;
+
+    if (currentScroll > lastScroll) {
+        btn.style.opacity = "0.4";
+    } else {
+        btn.style.opacity = "1";
+    }
+
+    lastScroll = currentScroll;
+});
+
+btn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});

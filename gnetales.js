@@ -11,7 +11,6 @@ function cargarGnetales() {
                 return;
             }
 
-            // 🔥 Agrupar por familia
             const familias = {};
 
             lista.forEach(especie => {
@@ -21,47 +20,65 @@ function cargarGnetales() {
                 familias[especie.familia].push(especie);
             });
 
-            // 🔥 Mostrar por familias
-            for (let familia in familias) {
+            Object.keys(familias).sort().forEach(familia => {
 
-    // 🔥 contenedor de cada familia
-    const seccion = document.createElement('div');
-    seccion.classList.add('familia-seccion');
+                const seccion = document.createElement('div');
+                seccion.classList.add('familia-seccion');
 
-    // 🔥 título
-    const titulo = document.createElement('h2');
-    titulo.textContent = `Familia: ${familia}`;
+                const titulo = document.createElement('h2');
+                titulo.textContent = `Familia: ${familia}`;
 
-    // 🔥 contenedor de tarjetas
-    const grupo = document.createElement('div');
-    grupo.classList.add('cards');
+                // 🔥 CLAVE (NO usar cards)
+                const grupo = document.createElement('div');
+                grupo.classList.add('especies-grid');
 
-    familias[familia].forEach(especie => {
+                familias[familia].forEach(especie => {
 
-        let icono = "";
-        if (especie.distribucion === "México") {
-            icono = " 🇲🇽";
-        }
+                    let icono = especie.distribucion === "México" ? " 🇲🇽" : "";
 
-        const card = document.createElement('div');
-        card.classList.add('card');
+                    const card = document.createElement('div');
+                    card.classList.add('especie');
 
-        card.innerHTML = `
-            <h3><em>${especie.nombre}</em>${icono}</h3>
-            <p><strong>Familia:</strong> ${especie.familia}</p>
-        `;
+                    card.innerHTML = `
+                        <h3><em>${especie.nombre}</em>${icono}</h3>
+                        <p><strong>Género:</strong> ${especie.genero}</p>
+                    `;
 
-        grupo.appendChild(card);
-    });
+                    grupo.appendChild(card);
+                });
 
-    seccion.appendChild(titulo);
-    seccion.appendChild(grupo);
-
-    contenedor.appendChild(seccion);
-}
+                seccion.appendChild(titulo);
+                seccion.appendChild(grupo);
+                contenedor.appendChild(seccion);
+            });
 
         })
         .catch(err => console.error(err));
 }
 
 cargarGnetales();
+
+
+// 🔝 BOTÓN
+const btn = document.getElementById("btn-top");
+
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+    let currentScroll = window.scrollY;
+
+    if (currentScroll > lastScroll) {
+        btn.style.opacity = "0.4";
+    } else {
+        btn.style.opacity = "1";
+    }
+
+    lastScroll = currentScroll;
+});
+
+btn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
