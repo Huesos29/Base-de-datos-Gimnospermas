@@ -126,8 +126,9 @@ ul {
 /* 🔥 GRID UNIFICADO (CATÁLOGO REAL) */
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 20px;
+    align-items: start; /*Para el desorden*/
 }
 
 /* 🔥 CARD LIMPIA Y ESTABLE */
@@ -141,6 +142,10 @@ ul {
     border: 2px solid var(--verde-medio);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.25s, box-shadow 0.25s;
+    height: 100%; /* 🔥 todas del mismo tamaño */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
 }
 
 /* HOVER */
@@ -171,6 +176,7 @@ ul {
 
 .card p {
     font-size: 0.9em;
+    margin-top: auto; /* empuja el texto abajo */
 }
 
 /* FOOTER */
@@ -180,3 +186,4 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
