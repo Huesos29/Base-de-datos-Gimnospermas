@@ -11,7 +11,6 @@ function cargarConiferas() {
                 return;
             }
 
-            // 🔥 Agrupar por familia
             const familias = {};
 
             lista.forEach(especie => {
@@ -21,7 +20,6 @@ function cargarConiferas() {
                 familias[especie.familia].push(especie);
             });
 
-            // 🔥 Mostrar ordenado
             Object.keys(familias).sort().forEach(familia => {
 
                 const seccion = document.createElement('div');
@@ -30,15 +28,17 @@ function cargarConiferas() {
                 const titulo = document.createElement('h2');
                 titulo.textContent = `Familia: ${familia}`;
 
+                // 🔥 NUEVO NOMBRE (YA NO usa .cards)
                 const grupo = document.createElement('div');
-                grupo.classList.add('cards');
+                grupo.classList.add('especies-grid');
 
                 familias[familia].forEach(especie => {
 
                     let icono = especie.distribucion === "México" ? " 🇲🇽" : "";
 
+                    // 🔥 NUEVO NOMBRE (YA NO usa .card)
                     const card = document.createElement('div');
-                    card.classList.add('card');
+                    card.classList.add('especie');
 
                     card.innerHTML = `
                         <h3><em>${especie.nombre}</em>${icono}</h3>

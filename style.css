@@ -1,6 +1,4 @@
-/* ========================= */
 /* RESET */
-/* ========================= */
 * {
     margin: 0;
     padding: 0;
@@ -61,6 +59,7 @@ nav a {
     padding: 8px 12px;
     border-radius: 5px;
     color: var(--blanco);
+    transition: 0.3s;
 }
 
 nav a:hover {
@@ -70,6 +69,7 @@ nav a:hover {
 /* MAIN */
 main {
     padding: 20px;
+    width: 100%;
 }
 
 /* SECCIONES */
@@ -77,91 +77,139 @@ section {
     margin-bottom: 30px;
 }
 
+/* LISTAS */
+ul {
+    padding-left: 20px;
+}
+
 /* CAJAS */
 .intro, 
 .caracteristicas, 
 .categorias {
     background-color: #fffaf0;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* TEXTOS */
+.intro h2, 
+.caracteristicas h2, 
+.categorias h2 {
+    margin-bottom: 10px;
+}
+
+.intro p {
+    line-height: 1.6;
+}
+
 /* ========================= */
-/* 🔥 INDEX (EXCLUSIVO) */
+/* 🔥 INDEX (CATEGORÍAS) */
 /* ========================= */
 
-.cards-index {
+.cards {
     display: grid;
+    gap: 15px;
+}
+
+.categorias .cards {
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    width: 100%;
+    gap: 20px;
 }
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
-    .cards-index {
+    .categorias .cards {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 500px) {
-    .cards-index {
+    .categorias .cards {
         grid-template-columns: 1fr;
     }
 }
 
-/* ========================= */
-/* 🔥 TARJETAS */
-/* ========================= */
-
+/* TARJETAS GENERALES (SOLO INDEX) */
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: var(--blanco);
-    padding: 15px;
-    border-radius: 12px;
+    padding: 12px;
+    border-radius: 10px;
     border: 2px solid var(--verde-medio);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: 0.25s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.25s, box-shadow 0.25s;
+    height: 100%;
     text-align: center;
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-/* IMÁGENES */
 .card img {
     width: 100%;
-    height: 220px;
+    height: 180px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-bottom: 10px;
 }
 
-/* ========================= */
-/* 🔥 ESPECIES (EXCLUSIVO) */
-/* ========================= */
-
-.familias-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 25px;
+.card h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
 }
 
-.grupo {
-    background-color: #fffaf0;
-    padding: 15px;
-    border-radius: 10px;
+.card p {
+    font-size: 0.85em;
+    margin-top: auto;
+}
+
+/* ========================= */
+/* 🔥 FAMILIAS (GRUPOS) */
+/* ========================= */
+
+.familia-seccion {
+    margin-bottom: 30px;
+}
+
+.familia-seccion h2 {
+    margin-bottom: 10px;
+    color: var(--verde-oscuro);
+}
+
+/* ========================= */
+/* 🔥 ESPECIES (DISEÑO SEPARADO) */
+/* ========================= */
+
+.especies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.especie {
+    background-color: var(--blanco);
     border: 2px solid var(--verde-medio);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* 👇 ESTE YA NO AFECTA AL INDEX */
-.grupo .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 10px;
+/* TEXTO ESPECIES */
+.especie h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.especie p {
+    font-size: 0.85em;
 }
 
 /* ========================= */
@@ -173,53 +221,4 @@ footer {
     color: var(--blanco);
     text-align: center;
     padding: 15px;
-}
-
-/* ========================= */
-/* 🔥 AJUSTE VISUAL ESPECIES */
-/* ========================= */
-
-/* CENTRAR Y LIMITAR ANCHO */
-.familias-grid {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-/* CUADRICULA MÁS BONITA */
-.grupo .cards {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 12px;
-}
-
-/* TARJETAS MÁS COMPACTAS */
-.grupo .card {
-    padding: 10px;
-}
-
-.grupo .card img {
-    height: 140px;
-}
-
-.grupo .card h3 {
-    font-size: 0.95em;
-}
-
-.grupo .card p {
-    font-size: 0.8em;
-}
-
-
-
-
-/* 🔥 FORZAR GRID EN ESPECIES */
-
-.grupo .cards {
-    display: grid !important;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
-    gap: 15px;
-}
-
-/* 🔥 HACER QUE LAS TARJETAS NO OCUPEN TODA LA FILA */
-.grupo .card {
-    width: 100%;
 }
