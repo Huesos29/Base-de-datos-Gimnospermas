@@ -103,10 +103,27 @@ ul {
 }
 
 /* ====== FAMILIAS EN CUADRÍCULA ====== */
-.familia-seccion {
+/* GRID PRINCIPAL DE FAMILIAS */
+.familias-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 25px;
+}
+
+/* CADA FAMILIA */
+.grupo {
+    background-color: #fffaf0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid var(--verde-medio);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* GRID INTERNO DE ESPECIES */
+.grupo .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
 }
 
 /* ====== CADA FAMILIA COMO BLOQUE ====== */
