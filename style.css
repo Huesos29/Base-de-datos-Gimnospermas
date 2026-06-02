@@ -207,3 +207,19 @@ footer {
 .grupo .card p {
     font-size: 0.8em;
 }
+
+
+
+
+/* 🔥 FORZAR GRID EN ESPECIES */
+
+.grupo .cards {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
+    gap: 15px;
+}
+
+/* 🔥 HACER QUE LAS TARJETAS NO OCUPEN TODA LA FILA */
+.grupo .card {
+    width: 100%;
+}
