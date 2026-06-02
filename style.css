@@ -167,3 +167,16 @@ footer {
 .card {
     overflow: hidden;
 }
+
+a {
+  text-decoration: none;   /* quita el subrayado */
+  color: inherit;          /* usa el color del elemento padre */
+}
+
+a:visited {
+  color: inherit;          /* evita que se pongan morados después de hacer click */
+}
+
+a:hover {
+  color: inherit;          /* mantiene el mismo color al pasar el mouse */
+}
