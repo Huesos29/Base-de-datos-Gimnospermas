@@ -21,7 +21,7 @@ body {
     color: #333;
 }
 
-/* LINKS (SIN AZUL) */
+/* LINKS */
 a {
     text-decoration: none;
     color: inherit;
@@ -69,6 +69,7 @@ nav a:hover {
 /* MAIN */
 main {
     padding: 20px;
+    width: 100%;
 }
 
 /* SECCIONES */
@@ -81,7 +82,7 @@ ul {
     padding-left: 20px;
 }
 
-/* CAJAS GENERALES */
+/* CAJAS */
 .intro, 
 .caracteristicas, 
 .categorias {
@@ -102,55 +103,45 @@ ul {
     line-height: 1.6;
 }
 
-/* ====== FAMILIAS EN CUADRÍCULA ====== */
-/* GRID PRINCIPAL DE FAMILIAS */
-.familias-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 25px;
-}
-
-/* CADA FAMILIA */
-.grupo {
-    background-color: #fffaf0;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid var(--verde-medio);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* GRID INTERNO DE ESPECIES */
-.grupo .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 10px;
-}
-
-/* ====== CADA FAMILIA COMO BLOQUE ====== */
-.grupo {
-    background-color: #fffaf0;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid var(--verde-medio);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* TITULO DE FAMILIA */
-.grupo h2 {
-    margin-bottom: 10px;
-    color: var(--verde-oscuro);
-    border-bottom: 2px solid #aaa;
-    padding-bottom: 5px;
-}
-
-/* ====== GRID DE ESPECIES ====== */
+/* ========================= */
+/* 🔥 GRID GENERAL (BASE) */
+/* ========================= */
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 15px;
 }
 
-/* ====== TARJETAS ====== */
+/* ========================= */
+/* 🔥 INDEX (CATEGORÍAS) */
+/* ========================= */
+
+.categorias {
+    width: 100%;
+}
+
+/* 👉 AQUÍ ESTÁ LA CLAVE */
+.categorias .cards {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .categorias .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .categorias .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================= */
+/* 🔥 TARJETAS */
+/* ========================= */
+
 .card {
     display: flex;
     flex-direction: column;
@@ -165,16 +156,15 @@ ul {
     text-align: center;
 }
 
-/* HOVER */
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-/* IMÁGENES CONTROLADAS */
+/* IMÁGENES */
 .card img {
     width: 100%;
-    height: 160px;
+    height: 180px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -191,30 +181,47 @@ ul {
     margin-top: auto;
 }
 
+/* ========================= */
+/* 🔥 FAMILIAS (CONÍFERAS) */
+/* ========================= */
+
+/* GRID DE FAMILIAS */
+.familias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+/* BLOQUE DE FAMILIA */
+.grupo {
+    background-color: #fffaf0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid var(--verde-medio);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* TITULO */
+.grupo h2 {
+    margin-bottom: 10px;
+    color: var(--verde-oscuro);
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 5px;
+}
+
+/* GRID INTERNO (ESPECIES) */
+.grupo .cards {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+}
+
+/* ========================= */
 /* FOOTER */
+/* ========================= */
+
 footer {
     background-color: var(--verde-oscuro);
     color: var(--blanco);
     text-align: center;
     padding: 15px;
-}
-
-
-
-
-/* 🔥 SECCIÓN DE CATEGORÍAS A TODO EL ANCHO */
-.categorias {
-    width: 100%;
-}
-
-/* 🔥 GRID MÁS FLEXIBLE Y PROPORCIONAL */
-.categorias .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-/* 🔥 HACER QUE LAS TARJETAS SE EXPANDAN BIEN */
-.categorias .card {
-    height: 100%;
 }
