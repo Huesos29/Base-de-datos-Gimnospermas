@@ -198,3 +198,23 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+
+
+/* 🔥 SECCIÓN DE CATEGORÍAS A TODO EL ANCHO */
+.categorias {
+    width: 100%;
+}
+
+/* 🔥 GRID MÁS FLEXIBLE Y PROPORCIONAL */
+.categorias .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* 🔥 HACER QUE LAS TARJETAS SE EXPANDAN BIEN */
+.categorias .card {
+    height: 100%;
+}
