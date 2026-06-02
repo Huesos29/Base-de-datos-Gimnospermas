@@ -7,9 +7,7 @@
     box-sizing: border-box;
 }
 
-/* ========================= */
 /* VARIABLES */
-/* ========================= */
 :root {
     --verde-oscuro: #2f5d50;
     --verde-medio: #4c8c74;
@@ -18,9 +16,7 @@
     --blanco: #ffffff;
 }
 
-/* ========================= */
 /* BODY */
-/* ========================= */
 body {
     font-family: Arial, sans-serif;
     background-color: var(--fondo);
@@ -33,9 +29,7 @@ a {
     color: inherit;
 }
 
-/* ========================= */
 /* HEADER */
-/* ========================= */
 .hero {
     height: 300px;
     background: linear-gradient(rgba(47,93,80,0.7), rgba(47,93,80,0.7)),
@@ -67,29 +61,20 @@ nav a {
     padding: 8px 12px;
     border-radius: 5px;
     color: var(--blanco);
-    transition: 0.3s;
 }
 
 nav a:hover {
     background-color: var(--verde-medio);
 }
 
-/* ========================= */
 /* MAIN */
-/* ========================= */
 main {
     padding: 20px;
-    width: 100%;
 }
 
 /* SECCIONES */
 section {
     margin-bottom: 30px;
-}
-
-/* LISTAS */
-ul {
-    padding-left: 20px;
 }
 
 /* CAJAS */
@@ -102,19 +87,11 @@ ul {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* TEXTOS */
-.intro h2, 
-.caracteristicas h2, 
-.categorias h2 {
-    margin-bottom: 15px;
-}
-
 /* ========================= */
-/* 🔥 INDEX (CATEGORÍAS) */
+/* 🔥 INDEX (EXCLUSIVO) */
 /* ========================= */
 
-/* GRID SOLO PARA INDEX */
-.categorias .cards {
+.cards-index {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
@@ -123,13 +100,13 @@ ul {
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
-    .categorias .cards {
+    .cards-index {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 500px) {
-    .categorias .cards {
+    .cards-index {
         grid-template-columns: 1fr;
     }
 }
@@ -137,23 +114,21 @@ ul {
 /* ========================= */
 /* 🔥 TARJETAS */
 /* ========================= */
+
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: var(--blanco);
     padding: 15px;
     border-radius: 12px;
     border: 2px solid var(--verde-medio);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.25s, box-shadow 0.25s;
+    transition: 0.25s;
     text-align: center;
-    height: 100%;
 }
 
 .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 10px 18px rgba(0,0,0,0.2);
 }
 
 /* IMÁGENES */
@@ -162,50 +137,27 @@ ul {
     height: 220px;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 12px;
-}
-
-/* TEXTO */
-.card h3 {
-    font-size: 1.2em;
-    margin-bottom: 8px;
-}
-
-.card p {
-    font-size: 0.95em;
-    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 /* ========================= */
-/* 🔥 FAMILIAS (PÁGINAS INTERNAS) */
+/* 🔥 ESPECIES (EXCLUSIVO) */
 /* ========================= */
 
-/* GRID PRINCIPAL DE FAMILIAS */
 .familias-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 25px;
-    width: 100%;
 }
 
-/* BLOQUE DE FAMILIA */
 .grupo {
     background-color: #fffaf0;
     padding: 15px;
     border-radius: 10px;
     border: 2px solid var(--verde-medio);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* TITULO */
-.grupo h2 {
-    margin-bottom: 10px;
-    color: var(--verde-oscuro);
-    border-bottom: 2px solid #aaa;
-    padding-bottom: 5px;
-}
-
-/* 🔥 GRID SOLO PARA ESPECIES */
+/* 👇 ESTE YA NO AFECTA AL INDEX */
 .grupo .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -215,6 +167,7 @@ ul {
 /* ========================= */
 /* FOOTER */
 /* ========================= */
+
 footer {
     background-color: var(--verde-oscuro);
     color: var(--blanco);
