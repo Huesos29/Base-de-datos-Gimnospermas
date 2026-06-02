@@ -1,11 +1,15 @@
+/* ========================= */
 /* RESET */
+/* ========================= */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ========================= */
 /* VARIABLES */
+/* ========================= */
 :root {
     --verde-oscuro: #2f5d50;
     --verde-medio: #4c8c74;
@@ -14,7 +18,9 @@
     --blanco: #ffffff;
 }
 
+/* ========================= */
 /* BODY */
+/* ========================= */
 body {
     font-family: Arial, sans-serif;
     background-color: var(--fondo);
@@ -27,7 +33,9 @@ a {
     color: inherit;
 }
 
+/* ========================= */
 /* HEADER */
+/* ========================= */
 .hero {
     height: 300px;
     background: linear-gradient(rgba(47,93,80,0.7), rgba(47,93,80,0.7)),
@@ -66,11 +74,12 @@ nav a:hover {
     background-color: var(--verde-medio);
 }
 
+/* ========================= */
 /* MAIN */
+/* ========================= */
 main {
     padding: 20px;
     width: 100%;
-    max-width: 100%;
 }
 
 /* SECCIONES */
@@ -88,7 +97,7 @@ ul {
 .caracteristicas, 
 .categorias {
     background-color: #fffaf0;
-    padding: 25px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -100,29 +109,13 @@ ul {
     margin-bottom: 15px;
 }
 
-.intro p {
-    line-height: 1.6;
-}
-
-/* ========================= */
-/* 🔥 GRID BASE */
-/* ========================= */
-.cards {
-    display: grid;
-    gap: 20px;
-}
-
 /* ========================= */
 /* 🔥 INDEX (CATEGORÍAS) */
 /* ========================= */
 
-.categorias {
-    width: 100%;
-    padding: 40px;
-}
-
-/* GRID QUE SÍ OCUPA TODO */
+/* GRID SOLO PARA INDEX */
 .categorias .cards {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     width: 100%;
@@ -144,7 +137,6 @@ ul {
 /* ========================= */
 /* 🔥 TARJETAS */
 /* ========================= */
-
 .card {
     display: flex;
     flex-direction: column;
@@ -185,14 +177,15 @@ ul {
 }
 
 /* ========================= */
-/* 🔥 FAMILIAS (OTRAS PÁGINAS) */
+/* 🔥 FAMILIAS (PÁGINAS INTERNAS) */
 /* ========================= */
 
-/* GRID DE FAMILIAS */
+/* GRID PRINCIPAL DE FAMILIAS */
 .familias-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 25px;
+    width: 100%;
 }
 
 /* BLOQUE DE FAMILIA */
@@ -212,8 +205,9 @@ ul {
     padding-bottom: 5px;
 }
 
-/* GRID INTERNO (ESPECIES) */
+/* 🔥 GRID SOLO PARA ESPECIES */
 .grupo .cards {
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 10px;
 }
@@ -221,7 +215,6 @@ ul {
 /* ========================= */
 /* FOOTER */
 /* ========================= */
-
 footer {
     background-color: var(--verde-oscuro);
     color: var(--blanco);
