@@ -221,3 +221,55 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+
+
+
+
+/* ========================= */
+/* 🔥 FIX SOLO PARA INDEX */
+/* ========================= */
+
+.familias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grupo .cards {
+    display: block; /* evita que se vuelva grid */
+}
+
+.grupo .card {
+    width: 100%;
+}
+
+/* ========================= */
+/* 🔥 FIX SOLO PARA ESPECIES */
+/* ========================= */
+
+#lista-coniferas {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.familia-seccion .especies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+/* IMPORTANTE: evita que herede estilos del index */
+.familia-seccion .especie {
+    background-color: var(--blanco);
+    border: 2px solid var(--verde-medio);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* separa familias visualmente */
+.familia-seccion {
+    margin-bottom: 40px;
+}
