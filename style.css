@@ -171,3 +171,17 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+.familia-seccion .card {
+    padding: 15px;
+}
+
+.familia-seccion ul {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.familia-seccion li {
+    margin-bottom: 5px;
+}
