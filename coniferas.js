@@ -61,29 +61,31 @@ cargarConiferas();
 
 
 
+document.addEventListener("DOMContentLoaded", () => {
 
-const btn = document.getElementById("btn-top");
+    const btn = document.getElementById("btn-top");
 
-let lastScroll = 0;
+    if (!btn) return; // evita errores si no existe
 
-window.addEventListener("scroll", () => {
-    let currentScroll = window.scrollY;
+    let lastScroll = 0;
 
-    if (currentScroll > lastScroll) {
-        // bajando
-        btn.style.opacity = "0.4";
-    } else {
-        // subiendo
-        btn.style.opacity = "1";
-    }
+    window.addEventListener("scroll", () => {
+        let currentScroll = window.scrollY;
 
-    lastScroll = currentScroll;
-});
+        if (currentScroll > lastScroll) {
+            btn.style.opacity = "0.4";
+        } else {
+            btn.style.opacity = "1";
+        }
 
-// ir arriba
-btn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+        lastScroll = currentScroll;
     });
+
+    btn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
 });
