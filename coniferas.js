@@ -42,7 +42,7 @@ function cargarConiferas() {
 
                     card.innerHTML = `
                         <h3><em>${especie.nombre}</em>${icono}</h3>
-                        <p><strong>Género:</strong> ${especie.genero}</p>
+                        <p><strong>Género:</strong> <em>${especie.genero}</em></p>
                     `;
 
                     grupo.appendChild(card);
