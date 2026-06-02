@@ -318,7 +318,7 @@ body:has(#lista-cicadas) .grupo {
 /* IMAGEN */
 .mapa-card img {
     width: 100%;
-    height: 180px;
+    height: 220px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
