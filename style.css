@@ -183,3 +183,43 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+
+/* ========================= */
+/* 🔥 FIX FAMILIAS (AHORA SÍ BONITO) */
+/* ========================= */
+
+.grupo .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* IMÁGENES CONTROLADAS */
+.grupo .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* TEXTO ORDENADO */
+.grupo .card ul {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.grupo .card p {
+    font-size: 0.9em;
+    margin-top: auto;
+}
+
+/* EVITA QUE SE HAGAN GIGANTES */
+.familias-grid {
+    align-items: start;
+}
