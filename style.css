@@ -104,33 +104,34 @@ ul {
 }
 
 /* ========================= */
-/* 🔥 INDEX (CATEGORÍAS) */
+/* 🔥 FAMILIAS (CUADRÍCULA) */
 /* ========================= */
 
-.cards {
+.familias-grid {
     display: grid;
-    gap: 15px;
-}
-
-.categorias .cards {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
-    .categorias .cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.grupo {
+    background-color: #fffaf0;
+    padding: 15px;
+    border-radius: 10px;
 }
 
-@media (max-width: 500px) {
-    .categorias .cards {
-        grid-template-columns: 1fr;
-    }
+/* tarjetas internas de familias */
+.grupo .cards {
+    display: block;
 }
 
-/* TARJETAS GENERALES (SOLO INDEX) */
+.grupo .card {
+    width: 100%;
+}
+
+/* ========================= */
+/* 🔥 TARJETAS GENERALES */
+/* ========================= */
+
 .card {
     display: flex;
     flex-direction: column;
@@ -169,7 +170,7 @@ ul {
 }
 
 /* ========================= */
-/* 🔥 FAMILIAS (GRUPOS) */
+/* 🔥 LISTADO DE ESPECIES */
 /* ========================= */
 
 .familia-seccion {
@@ -181,18 +182,16 @@ ul {
     color: var(--verde-oscuro);
 }
 
-/* ========================= */
-/* 🔥 ESPECIES (DISEÑO SEPARADO) */
-/* ========================= */
-
+/* GRID DE ESPECIES (IMPORTANTE) */
 .especies-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 15px;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
+/* TARJETA ESPECIE */
 .especie {
     background-color: var(--blanco);
     border: 2px solid var(--verde-medio);
@@ -202,7 +201,7 @@ ul {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* TEXTO ESPECIES */
+/* TEXTO */
 .especie h3 {
     font-size: 1em;
     margin-bottom: 5px;
