@@ -77,11 +77,6 @@ section {
     margin-bottom: 30px;
 }
 
-/* LISTAS */
-ul {
-    padding-left: 20px;
-}
-
 /* CAJAS */
 .intro, 
 .caracteristicas, 
@@ -92,19 +87,54 @@ ul {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* TEXTOS */
-.intro h2, 
-.caracteristicas h2, 
-.categorias h2 {
+/* ========================= */
+/* 🔥 INDEX (ESTE ERA TU PROBLEMA) */
+/* ========================= */
+
+.cards-index {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.cards-index .card {
+    background-color: var(--blanco);
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid var(--verde-medio);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.25s;
+}
+
+.cards-index .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.cards-index img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
     margin-bottom: 10px;
 }
 
-.intro p {
-    line-height: 1.6;
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .cards-index {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .cards-index {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ========================= */
-/* 🔥 FAMILIAS (CUADRÍCULA) */
+/* 🔥 FAMILIAS (NO TOCAR INDEX) */
 /* ========================= */
 
 .familias-grid {
@@ -113,102 +143,34 @@ ul {
     gap: 20px;
 }
 
-.grupo {
-    background-color: #fffaf0;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/* tarjetas internas de familias */
-.grupo .cards {
-    display: block;
-}
-
 .grupo .card {
-    width: 100%;
-}
-
-/* ========================= */
-/* 🔥 TARJETAS GENERALES */
-/* ========================= */
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-color: var(--blanco);
     padding: 12px;
     border-radius: 10px;
     border: 2px solid var(--verde-medio);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.25s, box-shadow 0.25s;
-    height: 100%;
-    text-align: center;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
-
-.card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.card h3 {
-    font-size: 1em;
-    margin-bottom: 5px;
-}
-
-.card p {
-    font-size: 0.85em;
-    margin-top: auto;
 }
 
 /* ========================= */
-/* 🔥 LISTADO DE ESPECIES */
+/* 🔥 ESPECIES (SEPARADO TOTAL) */
 /* ========================= */
 
-.familia-seccion {
-    margin-bottom: 30px;
+#lista-coniferas {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.familia-seccion h2 {
-    margin-bottom: 10px;
-    color: var(--verde-oscuro);
-}
-
-/* GRID DE ESPECIES (IMPORTANTE) */
 .especies-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 15px;
-    max-width: 900px;
-    margin: 0 auto;
 }
 
-/* TARJETA ESPECIE */
 .especie {
     background-color: var(--blanco);
     border: 2px solid var(--verde-medio);
     border-radius: 10px;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* TEXTO */
-.especie h3 {
-    font-size: 1em;
-    margin-bottom: 5px;
-}
-
-.especie p {
-    font-size: 0.85em;
 }
 
 /* ========================= */
@@ -220,80 +182,4 @@ footer {
     color: var(--blanco);
     text-align: center;
     padding: 15px;
-}
-
-
-
-
-
-
-/* ========================= */
-/* 🔥 FIX SOLO PARA INDEX */
-/* ========================= */
-
-.familias-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.grupo .cards {
-    display: block; /* evita que se vuelva grid */
-}
-
-.grupo .card {
-    width: 100%;
-}
-
-/* ========================= */
-/* 🔥 FIX SOLO PARA ESPECIES */
-/* ========================= */
-
-#lista-coniferas {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.familia-seccion .especies-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 15px;
-}
-
-/* IMPORTANTE: evita que herede estilos del index */
-.familia-seccion .especie {
-    background-color: var(--blanco);
-    border: 2px solid var(--verde-medio);
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-}
-
-/* separa familias visualmente */
-.familia-seccion {
-    margin-bottom: 40px;
-}
-
-
-
-
-/* ========================= */
-/* 🔥 FIX FINAL INDEX (4 EN FILA) */
-/* ========================= */
-
-.categorias .cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-.categorias .card {
-    width: 100%;
-}
-
-/* evita que otros estilos lo rompan */
-.familias-grid,
-.grupo,
-.grupo .cards {
-    display: contents;
 }
