@@ -284,3 +284,10 @@ body:has(#lista-ginkgo) .grupo,
 body:has(#lista-cicadas) .grupo {
     max-width: 400px;
 }
+
+
+
+
+.especie p em {
+    font-style: italic;
+}
