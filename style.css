@@ -261,3 +261,26 @@ footer {
 #btn-top:hover {
     transform: scale(1.1);
 }
+
+
+
+
+
+/* 🔥 AJUSTE SOLO PARA GINKGO (1 tarjeta) */
+body:has(#lista-ginkgo) .familias-grid {
+    display: flex;
+    justify-content: center;
+}
+
+/* 🔥 AJUSTE SOLO PARA CÍCADAS (2 tarjetas) */
+body:has(#lista-cicadas) .familias-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* 🔥 OPCIONAL: limitar ancho para que no se estiren demasiado */
+body:has(#lista-ginkgo) .grupo,
+body:has(#lista-cicadas) .grupo {
+    max-width: 400px;
+}
