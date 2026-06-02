@@ -304,7 +304,8 @@ body:has(#lista-cicadas) .grupo {
     overflow: hidden;
     border: 2px solid var(--verde-medio);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 12px;
+    padding: 20px;
+    min-height: 380px;
     text-align: center;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
