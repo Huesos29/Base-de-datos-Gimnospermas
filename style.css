@@ -273,3 +273,27 @@ footer {
 .familia-seccion {
     margin-bottom: 40px;
 }
+
+
+
+
+/* ========================= */
+/* 🔥 FIX FINAL INDEX (4 EN FILA) */
+/* ========================= */
+
+.categorias .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.categorias .card {
+    width: 100%;
+}
+
+/* evita que otros estilos lo rompan */
+.familias-grid,
+.grupo,
+.grupo .cards {
+    display: contents;
+}
