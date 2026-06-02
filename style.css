@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* VARIABLES DE COLOR */
+/* VARIABLES */
 :root {
     --verde-oscuro: #2f5d50;
     --verde-medio: #4c8c74;
@@ -36,7 +36,7 @@ a {
     background-position: center;
 }
 
-/* CONTENIDO HEADER */
+/* OVERLAY */
 .overlay {
     height: 100%;
     display: flex;
@@ -81,7 +81,7 @@ ul {
     padding-left: 20px;
 }
 
-/* CAJAS DE CONTENIDO */
+/* CAJAS */
 .intro, 
 .caracteristicas, 
 .categorias {
@@ -123,16 +123,22 @@ ul {
     margin-bottom: 15px;
 }
 
-/* GRID DE CARDS */
+/* GRID GENERAL */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
 }
 
-/* CARD (OPTIMIZADA) */
+/* 🔥 GRID TIPO CATÁLOGO (CONÍFERAS) */
+.familia-seccion .cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
 .card {
-    display: block; /* 👈 hace toda la card clickeable */
+    display: block;
     background-color: var(--blanco);
     padding: 15px;
     border-radius: 10px;
@@ -143,13 +149,13 @@ ul {
     cursor: pointer;
 }
 
-/* EFECTO HOVER PRO */
+/* HOVER */
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-/* IMÁGENES */
+/* IMÁGENES (GENERAL) */
 .card img {
     width: 100%;
     height: 140px;
@@ -159,9 +165,32 @@ ul {
     transition: transform 0.3s;
 }
 
-/* ZOOM IMAGEN */
+/* 🔥 IMÁGENES CATÁLOGO */
+.familia-seccion .card img {
+    height: 180px; /* tamaño uniforme */
+}
+
+/* ZOOM */
 .card:hover img {
     transform: scale(1.08);
+}
+
+/* TEXTO EN CATÁLOGO */
+.familia-seccion .card {
+    padding: 10px;
+    text-align: center;
+}
+
+.familia-seccion ul {
+    text-align: left;
+    font-size: 0.9em;
+    max-height: 120px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.familia-seccion li {
+    margin-bottom: 5px;
 }
 
 /* FOOTER */
@@ -170,18 +199,4 @@ footer {
     color: var(--blanco);
     text-align: center;
     padding: 15px;
-}
-
-
-.familia-seccion .card {
-    padding: 15px;
-}
-
-.familia-seccion ul {
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
-
-.familia-seccion li {
-    margin-bottom: 5px;
 }
