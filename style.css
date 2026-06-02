@@ -87,8 +87,8 @@ section {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* ========================= */
-/* 🔥 INDEX (ESTE ERA TU PROBLEMA) */
+/* /* ========================= */
+/* 🔥 INDEX (AISLADO TOTAL) */
 /* ========================= */
 
 .cards-index {
@@ -97,7 +97,7 @@ section {
     gap: 20px;
 }
 
-.cards-index .card {
+.card-index {
     background-color: var(--blanco);
     padding: 12px;
     border-radius: 10px;
@@ -107,12 +107,12 @@ section {
     transition: 0.25s;
 }
 
-.cards-index .card:hover {
+.card-index:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.cards-index img {
+.card-index img {
     width: 100%;
     height: 180px;
     object-fit: cover;
@@ -132,6 +132,8 @@ section {
         grid-template-columns: 1fr;
     }
 }
+
+
 
 /* ========================= */
 /* 🔥 FAMILIAS (NO TOCAR INDEX) */
