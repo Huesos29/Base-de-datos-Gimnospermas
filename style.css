@@ -174,3 +174,36 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+/* ========================= */
+/* 🔥 AJUSTE VISUAL ESPECIES */
+/* ========================= */
+
+/* CENTRAR Y LIMITAR ANCHO */
+.familias-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* CUADRICULA MÁS BONITA */
+.grupo .cards {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+}
+
+/* TARJETAS MÁS COMPACTAS */
+.grupo .card {
+    padding: 10px;
+}
+
+.grupo .card img {
+    height: 140px;
+}
+
+.grupo .card h3 {
+    font-size: 0.95em;
+}
+
+.grupo .card p {
+    font-size: 0.8em;
+}
