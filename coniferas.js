@@ -58,3 +58,32 @@ function cargarConiferas() {
 }
 
 cargarConiferas();
+
+
+
+
+const btn = document.getElementById("btn-top");
+
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+    let currentScroll = window.scrollY;
+
+    if (currentScroll > lastScroll) {
+        // bajando
+        btn.style.opacity = "0.4";
+    } else {
+        // subiendo
+        btn.style.opacity = "1";
+    }
+
+    lastScroll = currentScroll;
+});
+
+// ir arriba
+btn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});

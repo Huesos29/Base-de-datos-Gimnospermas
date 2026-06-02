@@ -234,3 +234,30 @@ footer {
 .familia-seccion h2 {
     margin-bottom: 10px;
 }
+
+
+
+
+/* 🔝 BOTÓN VOLVER ARRIBA */
+#btn-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--verde-medio);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: opacity 0.3s, transform 0.2s;
+    opacity: 1;
+    z-index: 1000;
+}
+
+/* efecto hover */
+#btn-top:hover {
+    transform: scale(1.1);
+}
