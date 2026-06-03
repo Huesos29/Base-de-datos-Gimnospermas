@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     let id = familia.toLowerCase();
 
                     if (id.includes("araucariaceae")) id = "ara";
+                    if (id.includes("cephalotaxaceae")) id = "cepha";
                     if (id.includes("taxaceae")) id = "taxa";
                     if (id.includes("pinaceae")) id = "pina";
                     if (id.includes("podocarpaceae")) id = "podo";
