@@ -22,8 +22,60 @@ function cargarConiferas() {
 
             Object.keys(familias).sort().forEach(familia => {
 
-                const seccion = document.createElement('div');
-                seccion.classList.add('familia-seccion');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+const seccion = document.createElement('div');
+seccion.classList.add('familia-seccion');
+
+// 👇 convertir nombre de familia → id corto
+let id = familia.toLowerCase();
+
+if (id.includes("araucariaceae")) id = "ara";
+if (id.includes("taxaceae")) id = "taxa";
+if (id.includes("pinaceae")) id = "pina";
+if (id.includes("podocarpaceae")) id = "podo";
+if (id.includes("cupressaceae")) id = "cupre";
+if (id.includes("sciadopityaceae")) id = "sciado";
+
+// 👇 asignar el id a la sección
+seccion.id = id;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 const titulo = document.createElement('h2');
                 titulo.textContent = `Familia: ${familia}`;
