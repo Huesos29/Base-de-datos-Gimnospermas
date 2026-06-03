@@ -27,16 +27,18 @@ document.addEventListener("DOMContentLoaded", () => {
                     const seccion = document.createElement('div');
                     seccion.classList.add('familia-seccion');
 
-                    // 🔥 generar ID dinámico
-                    let id = familia.toLowerCase();
+                    // 🔥 ID SEGURO (SIN ERRORES)
+                    let nombre = familia.toLowerCase().trim();
+                    let id = "";
 
-                    if (id.includes("araucariaceae")) id = "ara";
-                    if (id.includes("cephalotaxaceae")) id = "cepha";
-                    if (id.includes("taxaceae")) id = "taxa";
-                    if (id.includes("pinaceae")) id = "pina";
-                    if (id.includes("podocarpaceae")) id = "podo";
-                    if (id.includes("cupressaceae")) id = "cupre";
-                    if (id.includes("sciadopityaceae")) id = "sciado";
+                    if (nombre === "araucariaceae") id = "ara";
+                    else if (nombre === "cephalotaxaceae") id = "cepha";
+                    else if (nombre === "taxaceae") id = "taxa";
+                    else if (nombre === "pinaceae") id = "pina";
+                    else if (nombre === "podocarpaceae") id = "podo";
+                    else if (nombre === "cupressaceae") id = "cupre";
+                    else if (nombre === "sciadopityaceae") id = "sciado";
+                    else id = nombre; // por si acaso
 
                     seccion.id = id;
 
@@ -66,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     contenedor.appendChild(seccion);
                 });
 
-                // 🔥 asegurar scroll correcto después de cargar
+                // 🔥 SCROLL CORRECTO DESPUÉS DE CARGAR
                 setTimeout(() => {
                     if (window.location.hash) {
                         const el = document.querySelector(window.location.hash);
@@ -80,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
             .catch(err => console.error(err));
     }
 
-    // 🚀 ejecutar carga
+    // 🚀 cargar datos
     cargarConiferas();
 
     // 🔝 BOTÓN TOP
