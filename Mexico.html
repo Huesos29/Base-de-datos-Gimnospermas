@@ -1,222 +1,208 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Gimnospermas de México</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Gimnospermas de México</title>
+<link rel="stylesheet" href="style.css">
 
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
+<style>
+.mapas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
 
-        .mapas-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
+/* 🔥 TARJETAS CLARAS */
+.mapa-card {
+    background: #f5f5f0; /* cremita */
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    border: 1px solid #ddd;
+}
 
-        .mapa-card {
-            background: #111;
-            padding: 15px;
-            border-radius: 12px;
-            color: white;
-            cursor: pointer;
-            transition: transform 0.3s;
-        }
+.mapa-card:hover {
+    transform: scale(1.03);
+}
 
-        .mapa-card:hover {
-            transform: scale(1.05);
-        }
+.mini-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px 0;
+}
 
-        .mini-img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin: 10px 0;
-        }
+/* 🔥 MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.85);
+}
 
-        /* MODAL */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 999;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.9);
-        }
+.modal-contenido {
+    background: white;
+    margin: 5% auto;
+    padding: 25px;
+    width: 80%;
+    max-height: 85vh;
+    overflow-y: auto;
+    border-radius: 12px;
+}
 
-        .modal-contenido {
-            margin: auto;
-            padding: 20px;
-            width: 80%;
-            text-align: center;
-            color: white;
-        }
+.modal img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
 
-        .modal img {
-            width: 90%;
-            max-height: 80vh;
-            object-fit: contain;
-        }
+.cerrar {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
 
-        .cerrar {
-            position: absolute;
-            top: 20px;
-            right: 40px;
-            font-size: 40px;
-            color: white;
-            cursor: pointer;
-        }
+figcaption {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555;
+}
+</style>
 
-        figcaption {
-            margin-top: 10px;
-            font-size: 14px;
-            color: #ccc;
-        }
-    </style>
 </head>
 
 <body>
 
-<!-- 🔝 HERO -->
-<header class="hero">
-    <div class="overlay">
-        <h1>Gimnospermas de México</h1>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="coniferas.html">Coníferas</a>
-            <a href="cicadas.html">Cícadas</a>
-            <a href="ginkgo.html">Ginkgo</a>
-            <a href="gnetales.html">Gnetales</a>
-        </nav>
-    </div>
-</header>
-
-<main>
-
-<!-- 📚 INTRO -->
-<section class="intro">
-    <h2>Distribución de gimnospermas en México</h2>
-    <p>
-        México es uno de los países con mayor diversidad de gimnospermas en el mundo. 
-        Su distribución está determinada por la altitud, el clima y la fragmentación del hábitat,
-        concentrándose en sierras, bosques templados, zonas áridas y regiones tropicales del sur del país.
-    </p>
-</section>
-
-<!-- 🗺️ MAPAS -->
 <section class="categorias">
-    <h2>Distribución por familias en México</h2>
+<h2>Distribución por familias en México</h2>
 
-    <div class="mapas-grid">
+<div class="mapas-grid">
 
-        <div class="mapa-card" onclick="abrirModal('img/Mapa pinaceas.png','Pinaceae')">
-            <h3>Pinaceae</h3>
-            <img src="img/Mapa pinaceas.png" class="mini-img">
-            <p>Es la familia más diversa. Se distribuye en sierras y montañas de México.</p>
-        </div>
-
-        <div class="mapa-card" onclick="abrirModal('img/Mapcupre.png','Cupressaceae')">
-            <h3>Cupressaceae</h3>
-            <img src="img/Mapcupre.png" class="mini-img">
-            <p>Presente en zonas montañosas y semiáridas del país.</p>
-        </div>
-
-        <div class="mapa-card" onclick="abrirModal('img/Mapapodo.png','Podocarpaceae')">
-            <h3>Podocarpaceae</h3>
-            <img src="img/Mapapodo.png" class="mini-img">
-            <p>Distribución restringida a bosques mesófilos.</p>
-        </div>
-
-        <div class="mapa-card" onclick="abrirModal('img/Mapataxa.png','Taxaceae')">
-            <h3>Taxaceae</h3>
-            <img src="img/Mapataxa.png" class="mini-img">
-            <p>Presente en bosques húmedos de montaña.</p>
-        </div>
-
-        <div class="mapa-card" onclick="abrirModal('img/Mpacycada.png','Cycadaceae')">
-            <h3>Cycadaceae</h3>
-            <img src="img/Mpacycada.png" class="mini-img">
-            <p>Distribución en regiones tropicales del sur.</p>
-        </div>
-
-        <div class="mapa-card" onclick="abrirModal('img/Mapaziamacea.png','Zamiaceae')">
-            <h3>Zamiaceae</h3>
-            <img src="img/Mapaziamacea.png" class="mini-img">
-            <p>Alta diversidad en México.</p>
-        </div>
-
-        <div class="mapa-card" onclick="abrirModal('img/Mapaefedra.png','Ephedraceae')">
-            <h3>Ephedraceae</h3>
-            <img src="img/Mapaefedra.png" class="mini-img">
-            <p>Distribución en zonas áridas y semiáridas.</p>
-        </div>
-
-    </div>
-</section>
-
-<!-- 🌱 IMPORTANCIA -->
-<section class="intro">
-    <h2>Importancia ecológica</h2>
-    <p>
-        Las gimnospermas cumplen funciones ecológicas clave como captura de carbono, regulación hídrica y
-        mantenimiento de hábitats forestales.
-    </p>
-</section>
-
-</main>
-
-<!-- 🔥 MODAL -->
-<div id="modal" class="modal">
-    <span class="cerrar" onclick="cerrarModal()">×</span>
-
-    <div class="modal-contenido">
-        <h2 id="modal-titulo"></h2>
-
-        <figure>
-            <img id="modal-img">
-            <figcaption id="modal-caption"></figcaption>
-        </figure>
-    </div>
+<!-- PINACEAE -->
+<div class="mapa-card"
+onclick="abrirModal(
+'Pinaceae',
+'img/Mapa pinaceas.png',
+'Es la familia más diversa. Se distribuye en la Sierra Madre Occidental, Sierra Madre Oriental, Eje Neovolcánico, Sierra Madre del Sur y montañas de Chiapas, formando bosques de pino y oyamel.'
+)">
+<h3>Pinaceae</h3>
+<img src="img/Mapa pinaceas.png" class="mini-img">
+<p>Es la familia más diversa...</p>
 </div>
 
-<!-- 📌 FOOTER -->
-<footer>
-    <p>Proyecto de Gimnospermas de México</p>
-</footer>
+<!-- CUPRESSACEAE -->
+<div class="mapa-card"
+onclick="abrirModal(
+'Cupressaceae',
+'img/Mapcupre.png',
+'Presente en zonas montañosas y semiáridas del norte, centro y sur de México como Chihuahua, Durango, Coahuila, Puebla y Oaxaca.'
+)">
+<h3>Cupressaceae</h3>
+<img src="img/Mapcupre.png" class="mini-img">
+<p>Presente en zonas montañosas...</p>
+</div>
 
-<section class="referencias">
-    <h2>Referencias</h2>
-    <p>
-        CONABIO (2026). Documento de biodiversidad.
-    </p>
+<!-- PODOCARPACEAE -->
+<div class="mapa-card"
+onclick="abrirModal(
+'Podocarpaceae',
+'img/Mapapodo.png',
+'Distribución muy restringida a bosques mesófilos de montaña en Veracruz, Oaxaca y Chiapas.'
+)">
+<h3>Podocarpaceae</h3>
+<img src="img/Mapapodo.png" class="mini-img">
+<p>Distribución restringida...</p>
+</div>
+
+<!-- TAXACEAE -->
+<div class="mapa-card"
+onclick="abrirModal(
+'Taxaceae',
+'img/Mapataxa.png',
+'Representada por Taxus globosa en bosques húmedos de montaña del noreste, centro y sur de México.'
+)">
+<h3>Taxaceae</h3>
+<img src="img/Mapataxa.png" class="mini-img">
+<p>Bosques húmedos...</p>
+</div>
+
+<!-- CYCADACEAE -->
+<div class="mapa-card"
+onclick="abrirModal(
+'Cycadaceae',
+'img/Mpacycada.png',
+'Presente en regiones tropicales del sur y sureste como Oaxaca, Chiapas, Veracruz y Tabasco.'
+)">
+<h3>Cycadaceae</h3>
+<img src="img/Mpacycada.png" class="mini-img">
+<p>Regiones tropicales...</p>
+</div>
+
+<!-- ZAMIACEAE -->
+<div class="mapa-card"
+onclick="abrirModal(
+'Zamiaceae',
+'img/Mapaziamacea.png',
+'Alta diversidad en México, distribuida en Veracruz, Oaxaca, Chiapas, Puebla e Hidalgo.'
+)">
+<h3>Zamiaceae</h3>
+<img src="img/Mapaziamacea.png" class="mini-img">
+<p>Alta diversidad...</p>
+</div>
+
+<!-- EPHEDRACEAE -->
+<div class="mapa-card"
+onclick="abrirModal(
+'Ephedraceae',
+'img/Mapaefedra.png',
+'Distribuida en zonas áridas y semiáridas del norte y centro de México como Sonora, Chihuahua, Coahuila y Zacatecas.'
+)">
+<h3>Ephedraceae</h3>
+<img src="img/Mapaefedra.png" class="mini-img">
+<p>Zonas áridas...</p>
+</div>
+
+</div>
 </section>
 
-<footer class="footer-info">
-    <p><strong>Autores:</strong> Ángel Eduardo Vázquez Zárate y Frida Guadalupe Ramírez Aguilar</p>
-    <p><strong>Asesor:</strong> Dr. Emir Lenin Serafín Higuera</p>
-</footer>
+<!-- MODAL -->
+<div id="modal" class="modal">
+<span class="cerrar" onclick="cerrarModal()">×</span>
 
-<!-- 🧠 JS -->
+<div class="modal-contenido">
+<h2 id="modal-titulo"></h2>
+
+<img id="modal-img">
+
+<p id="modal-texto"></p>
+
+<figcaption id="modal-caption"></figcaption>
+
+</div>
+</div>
+
 <script>
-function abrirModal(ruta, familia) {
-    const modal = document.getElementById("modal");
-    const img = document.getElementById("modal-img");
-    const titulo = document.getElementById("modal-titulo");
-    const caption = document.getElementById("modal-caption");
+function abrirModal(nombre, imagen, texto) {
+    document.getElementById("modal").style.display = "block";
+    document.getElementById("modal-titulo").textContent = nombre;
+    document.getElementById("modal-img").src = imagen;
+    document.getElementById("modal-texto").textContent = texto;
 
-    modal.style.display = "block";
-    img.src = ruta;
-    titulo.textContent = familia;
-
-    if (familia === "Pinaceae") {
-        caption.textContent = "Fuente: CONABIO (2026). Coordinación: Ivette Mota Ramírez. Ilustraciones: Aslam Narváez Parra.";
+    // SOLO PINACEAE
+    if (nombre === "Pinaceae") {
+        document.getElementById("modal-caption").textContent =
+        "Fuente: CONABIO (2026). Coordinación: Ivette Mota Ramírez. Ilustraciones: Aslam Narváez Parra.";
     } else {
-        caption.textContent = "";
+        document.getElementById("modal-caption").textContent = "";
     }
 }
 
@@ -224,10 +210,9 @@ function cerrarModal() {
     document.getElementById("modal").style.display = "none";
 }
 
-window.onclick = function(event) {
-    const modal = document.getElementById("modal");
-    if (event.target === modal) {
-        modal.style.display = "none";
+window.onclick = function(e) {
+    if (e.target.id === "modal") {
+        cerrarModal();
     }
 }
 </script>
