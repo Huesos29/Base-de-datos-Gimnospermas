@@ -4,6 +4,80 @@
     <meta charset="UTF-8">
     <title>Gimnospermas de México</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .mapas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .mapa-card {
+            background: #111;
+            padding: 15px;
+            border-radius: 12px;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .mapa-card:hover {
+            transform: scale(1.05);
+        }
+
+        .mini-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        /* MODAL */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-contenido {
+            margin: auto;
+            padding: 20px;
+            width: 80%;
+            text-align: center;
+            color: white;
+        }
+
+        .modal img {
+            width: 90%;
+            max-height: 80vh;
+            object-fit: contain;
+        }
+
+        .cerrar {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #ccc;
+        }
+    </style>
 </head>
 
 <body>
@@ -40,82 +114,46 @@
 
     <div class="mapas-grid">
 
-        <!-- FILA 1 -->
-        <div class="mapa-card">
+        <div class="mapa-card" onclick="abrirModal('img/Mapa pinaceas.png','Pinaceae')">
             <h3>Pinaceae</h3>
-            <div class="mapa-contenido">
-                <img src="img/Mapa pinaceas.png">
-                <p>
-                    Es la familia más diversa. Se distribuye en la Sierra Madre Occidental, Sierra Madre Oriental,
-                    Eje Neovolcánico, Sierra Madre del Sur y montañas de Chiapas, formando bosques de pino y oyamel.
-                </p>
-            </div>
+            <img src="img/Mapa pinaceas.png" class="mini-img">
+            <p>Es la familia más diversa. Se distribuye en sierras y montañas de México.</p>
         </div>
 
-        <div class="mapa-card">
+        <div class="mapa-card" onclick="abrirModal('img/Mapcupre.png','Cupressaceae')">
             <h3>Cupressaceae</h3>
-            <div class="mapa-contenido">
-                <img src="img/Mapcupre.png">
-                <p>
-                    Presente en zonas montañosas y semiáridas del norte, centro y sur de México como Chihuahua,
-                    Durango, Coahuila, Puebla y Oaxaca.
-                </p>
-            </div>
+            <img src="img/Mapcupre.png" class="mini-img">
+            <p>Presente en zonas montañosas y semiáridas del país.</p>
         </div>
 
-        <!-- FILA 2 -->
-        <div class="mapa-card">
+        <div class="mapa-card" onclick="abrirModal('img/Mapapodo.png','Podocarpaceae')">
             <h3>Podocarpaceae</h3>
-            <div class="mapa-contenido">
-                <img src="img/Mapapodo.png">
-                <p>
-                    Distribución muy restringida a bosques mesófilos de montaña en Veracruz, Oaxaca y Chiapas.
-                </p>
-            </div>
+            <img src="img/Mapapodo.png" class="mini-img">
+            <p>Distribución restringida a bosques mesófilos.</p>
         </div>
 
-        <div class="mapa-card">
+        <div class="mapa-card" onclick="abrirModal('img/Mapataxa.png','Taxaceae')">
             <h3>Taxaceae</h3>
-            <div class="mapa-contenido">
-                <img src="img/Mapataxa.png">
-                <p>
-                    Representada por Taxus globosa en bosques húmedos de montaña del noreste, centro y sur de México.
-                </p>
-            </div>
+            <img src="img/Mapataxa.png" class="mini-img">
+            <p>Presente en bosques húmedos de montaña.</p>
         </div>
 
-        <!-- FILA 3 -->
-        <div class="mapa-card">
+        <div class="mapa-card" onclick="abrirModal('img/Mpacycada.png','Cycadaceae')">
             <h3>Cycadaceae</h3>
-            <div class="mapa-contenido">
-                <img src="img/Mpacycada.png">
-                <p>
-                    Presente en regiones tropicales del sur y sureste de México como Oaxaca, Chiapas, Veracruz y Tabasco.
-                </p>
-            </div>
+            <img src="img/Mpacycada.png" class="mini-img">
+            <p>Distribución en regiones tropicales del sur.</p>
         </div>
 
-        <div class="mapa-card">
+        <div class="mapa-card" onclick="abrirModal('img/Mapaziamacea.png','Zamiaceae')">
             <h3>Zamiaceae</h3>
-            <div class="mapa-contenido">
-                <img src="img/Mapaziamacea.png">
-                <p>
-                    Alta diversidad en México, uno de los principales centros mundiales de cícadas.
-                    Distribuida en Veracruz, Oaxaca, Chiapas, Puebla e Hidalgo.
-                </p>
-            </div>
+            <img src="img/Mapaziamacea.png" class="mini-img">
+            <p>Alta diversidad en México.</p>
         </div>
 
-        <!-- FILA 4 -->
-        <div class="mapa-card">
+        <div class="mapa-card" onclick="abrirModal('img/Mapaefedra.png','Ephedraceae')">
             <h3>Ephedraceae</h3>
-            <div class="mapa-contenido">
-                <img src="img/Mapaefedra.png">
-                <p>
-                    Se distribuye en zonas áridas y semiáridas del norte y centro de México como Sonora,
-                    Chihuahua, Coahuila y Zacatecas.
-                </p>
-            </div>
+            <img src="img/Mapaefedra.png" class="mini-img">
+            <p>Distribución en zonas áridas y semiáridas.</p>
         </div>
 
     </div>
@@ -126,33 +164,73 @@
     <h2>Importancia ecológica</h2>
     <p>
         Las gimnospermas cumplen funciones ecológicas clave como captura de carbono, regulación hídrica y
-        mantenimiento de hábitats forestales. Muchas especies son endémicas y están amenazadas por la
-        fragmentación del hábitat y el cambio de uso de suelo.
+        mantenimiento de hábitats forestales.
     </p>
 </section>
 
 </main>
+
+<!-- 🔥 MODAL -->
+<div id="modal" class="modal">
+    <span class="cerrar" onclick="cerrarModal()">×</span>
+
+    <div class="modal-contenido">
+        <h2 id="modal-titulo"></h2>
+
+        <figure>
+            <img id="modal-img">
+            <figcaption id="modal-caption"></figcaption>
+        </figure>
+    </div>
+</div>
 
 <!-- 📌 FOOTER -->
 <footer>
     <p>Proyecto de Gimnospermas de México</p>
 </footer>
 
-<!-- 📚 REFERENCIAS -->
 <section class="referencias">
     <h2>Referencias</h2>
     <p>
-        Martínez-Campos, A. R., & Cruz-García, G. S. (2025). Gimnospermas silvestres y cultivadas del Estado de México. Ciencia e Innovación Agroalimentaria, 3(4), 323–332.
+        CONABIO (2026). Documento de biodiversidad.
     </p>
 </section>
 
-<!-- 📌 FOOTER FINAL -->
 <footer class="footer-info">
     <p><strong>Autores:</strong> Ángel Eduardo Vázquez Zárate y Frida Guadalupe Ramírez Aguilar</p>
     <p><strong>Asesor:</strong> Dr. Emir Lenin Serafín Higuera</p>
 </footer>
 
+<!-- 🧠 JS -->
+<script>
+function abrirModal(ruta, familia) {
+    const modal = document.getElementById("modal");
+    const img = document.getElementById("modal-img");
+    const titulo = document.getElementById("modal-titulo");
+    const caption = document.getElementById("modal-caption");
+
+    modal.style.display = "block";
+    img.src = ruta;
+    titulo.textContent = familia;
+
+    if (familia === "Pinaceae") {
+        caption.textContent = "Fuente: CONABIO (2026). Coordinación: Ivette Mota Ramírez. Ilustraciones: Aslam Narváez Parra.";
+    } else {
+        caption.textContent = "";
+    }
+}
+
+function cerrarModal() {
+    document.getElementById("modal").style.display = "none";
+}
+
+window.onclick = function(event) {
+    const modal = document.getElementById("modal");
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
 </body>
 </html>
-
-
